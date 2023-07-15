@@ -1,0 +1,24 @@
+.useStateExample {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: calc(100vh - 70px);
+}
+
+.useStateExample form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.useStateExample input {
+  padding: 10px;
+}
+.useStateExample button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  border: none;
+}

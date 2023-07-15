@@ -1,0 +1,23 @@
+.useContextExample {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 70px);
+}
+
+.useContextExample button {
+  width: 200px;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.useContextExample button:first-child {
+  background-color: teal;
+}
+.useContextExample button:last-child {
+  background-color: rebeccapurple
+}

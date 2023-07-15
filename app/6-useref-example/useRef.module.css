@@ -1,0 +1,23 @@
+.useRefExample{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 70px);
+  flex-direction: column;
+  gap: 10px;
+}
+
+.useRefExample input{
+  width: 250px;
+  padding: 20px;
+}
+
+.useRefExample button {
+  width: 290px;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: teal;
+}

@@ -20,5 +20,20 @@ export const navbarLinks = [
     title: 'Event example',
     url: '/3-event-example',
   },
+  {
+    id: 5,
+    title: 'Use state',
+    url: '/4-usestate-example',
+  },
+  {
+    id: 6,
+    title: 'Use Context',
+    url: '/5-usecontext-example',
+  },
+  {
+    id: 7,
+    title: 'Use Ref',
+    url: '/6-useref-example',
+  },
 ];
 

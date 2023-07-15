@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 const inter = Inter({ subsets: ['latin'] });
+import { ThemeProvider } from '@/context/ThemeContext';
 
 export const metadata: Metadata = {
   title: 'Next 13 + TypeScript',
@@ -16,10 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <ThemeProvider>
       <body className={inter.className}>
         <Navbar />
         {children}
       </body>
+      </ThemeProvider>
     </html>
   );
 }
