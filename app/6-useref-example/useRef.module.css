@@ -21,3 +21,8 @@
   color: white;
   background-color: teal;
 }
+
+.label {
+  font-size: 16px;
+  justify-items: flex-start;
+}

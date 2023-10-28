@@ -17,7 +17,8 @@ const UseRefExample = () => {
   return (
   <div className={styles.useRefExample}>
       <input ref={inputRef} type="text" placeholder="focus here" />
-      <input ref={usernameInputRef} type="text" placeholder="username" />
+      <label className={styles.label} htmlFor="user-name">User name show in console</label>
+      <input id="user-name" ref={usernameInputRef} type="text" placeholder="username show in console" />
       <button onClick={handleClick}>Send</button>
     </div>
   );
