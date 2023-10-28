@@ -25,6 +25,8 @@ const UseStateExample = () => {
     });
   };
 
+  console.log(user)
+
   
   return (
     <div className={styles.useStateExample}>
